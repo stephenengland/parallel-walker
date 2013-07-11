@@ -1,0 +1,35 @@
+{
+  "name": "parallel-walker",
+  "description": "A Node.js recursive directory walker that reads directories in parallel with an event interface.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/thealah/parallel-walker",
+  "author": {
+    "name": "Stephen England",
+    "email": "thealah@gmail.com",
+    "url": "http://www.theahstudios.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thealah/parallel-walker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thealah/parallel-walker/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/thealah/parallel-walker/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/parallel-walker",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
