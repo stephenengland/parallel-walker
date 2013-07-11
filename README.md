@@ -6,7 +6,8 @@ A Node.js recursive directory walker that reads directories in parallel with an 
 Install the module with: `npm install parallel-walker`
 
 ```javascript
-var pw = require('parallel-walker');
+var pw = require('parallel-walker'),
+	directoryToSearch = 'D:/test/';
 
 var walkerObject = pw.create();
 
@@ -22,7 +23,7 @@ walkerObject.on('error', function(error) {
 	console.log(error);
 });
 
-walkerObject.walk(searchDir);
+walkerObject.walk(directoryToSearch);
 ```
 
 ## License
