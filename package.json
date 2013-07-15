@@ -1,7 +1,7 @@
 {
   "name": "parallel-walker",
   "description": "A Node.js recursive directory walker that reads directories in parallel with an event interface.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/thealah/parallel-walker",
   "author": {
     "name": "Stephen England",
