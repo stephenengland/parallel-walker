@@ -2,7 +2,7 @@
 
 A Node.js recursive directory walker that reads directories in parallel with an event interface.
 
-WARNING: Walking directories in parallel can consume a lot of memory. It is not recommended to use this on very large directory structures without properly testing the memory consumption!
+WARNING: Currently, this module can consume a lot of memory. It is not recommended to use this on very large directory structures without properly testing the memory consumption!
 
 ## Getting Started
 Install the module with: `npm install parallel-walker`
